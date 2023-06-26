@@ -2,30 +2,30 @@
 
 let n = 100;
 
-let fact = false;
+// let fact = false;
 
-function printprimenos(n)
-{
-    let f =0;
-    for(let i=2;i<=n;i++)
-    {
-        c=0;
-       for(let j =2;j<=i;j++)
-       {
-           if(i%j==0)
-           {
-            c++;
-           }
-       }
-       if(c==1)
-       {
-        console.log(i)
-       }
-    }
-}
+// function printprimenos(n)
+// {
+//     let f =0;
+//     for(let i=2;i<=n;i++)
+//     {
+//         c=0;
+//        for(let j =2;j<=i;j++)
+//        {
+//            if(i%j==0)
+//            {
+//             c++;
+//            }
+//        }
+//        if(c==1)
+//        {
+//         console.log(i)
+//        }
+//     }
+// }
 
 
-printprimenos(100)
+// printprimenos(100)
 
 // Efficient sol.
 // sieve of erarasthesus algo
@@ -49,7 +49,7 @@ for(let i =2;i<=n;i++)
 }
 for(let i=2;i<=n;i++)
 {
-    if(prime[i]==0)
+    if(prime[i] == 1)
     console.log(i)
 }
 
