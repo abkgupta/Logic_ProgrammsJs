@@ -10,7 +10,7 @@ for (let i = 0; i < len / 2; i++) {
 
 let reversed = chars.join(''); // Convert the array back to a string
 console.log(reversed);
-
+console.log(s)
 
 // let s  = "abhi";
 // let len = s.length;                      // not work cuz string is immutable 
