@@ -1,5 +1,5 @@
 function isPalindrome(str) {
-    str = str.replace(/\W/g, '').toLow
+    // str = str.replace(/\W/g, '').toLow
     return (str == str.split('').reverse().join(''));
   }
 //   For example:

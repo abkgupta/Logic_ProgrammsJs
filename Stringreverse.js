@@ -14,11 +14,12 @@ console.log(s)
 
 // let s  = "abhi";
 // let len = s.length;                      // not work cuz string is immutable 
-// let rev = ""
+// let rev = s;
 // for(let i=0;i<len/2;i++)
 // {
-//     let tmp = s[i];
-//     s[i] = s[len-i]
-//     s[len-i] = tmp;
+//     let tmp = rev[i];
+//     rev[i] = rev[len-i-1]
+//     rev[len-i-1] = tmp;
 // }
-// console.log(s);
+// let rs = rev;
+// console.log(rs);
